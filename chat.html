@@ -43,9 +43,23 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="content">
-                    <div class="content-title">"I don't say 'nerdy.' I say 'nerk.' It's the perfect combination between 'geek' and 'nerd.'" -- Matty B.</div>
+                    <div class="content-title">Member forum</div>
                     
-                    <p>Welcome to the new astronomy club website! We hold different events and activities throughout the year, all of which are open to the public. Elections for officers are at the end of Spring Quarter.</p>
+                        <p><a href="chat-faq.html">Member Forum FAQ</a></p>
+
+                    <iframe id="forum_embed"
+                        src="javascript:void(0)"
+                        scrolling="no"
+                        frameborder="0"
+                        height="700px"
+                        width="700px">
+                    </iframe>
+                    <script type="text/javascript">
+                     document.getElementById("forum_embed").src =
+                      "https://groups.google.com/forum/embed/?place=forum/ucdastronomyclub-chat&ucdastronomyclub.com" +
+                      "&showsearch=true&showpopout=true&parenturl=" +
+                      encodeURIComponent(window.location.href);
+                    </script>
 
                 </div>
             </div>
