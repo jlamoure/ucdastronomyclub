@@ -58,7 +58,10 @@ body {
     display: block;
     background-color: #dddddd;
     padding: 15px;
+}
 
+.content p {
+    text-indent: 30px;
 }
 
 .content-title {
